@@ -1,9 +1,9 @@
-import { RootStateKeyType } from '../types/injector-typings';
+import { RootStateKeyType } from "../types/injector-typings";
 import {
   createSlice as createSliceOriginal,
   SliceCaseReducers,
   CreateSliceOptions,
-} from '@reduxjs/toolkit';
+} from "@reduxjs/toolkit";
 
 /* Wrap createSlice with stricter Name options */
 
