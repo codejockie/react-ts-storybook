@@ -16407,6 +16407,18 @@ storybook-addon-outline@^1.4.1:
     "@storybook/core-events" "^6.3.0"
     ts-dedent "^2.1.1"
 
+storybook-i18n@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/storybook-i18n/-/storybook-i18n-1.0.3.tgz#b5b1d5106aab067dfe7e76c4af1d50fd335330b2"
+  integrity sha512-dMIZf+4uoFMpn6GLWnh0428MVGsDJYXa1NtBPE6hs/R95LYY19l8HszgMq6wYcrKe1L6vdQiV0Vu9J9gz4ZR4w==
+
+storybook-react-i18next@1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/storybook-react-i18next/-/storybook-react-i18next-1.0.9.tgz#a0fe6f49140147c33ab91cc28a70a7e0359d2da3"
+  integrity sha512-mCoVxJz3cCjRWXFPEbtwEnly9Xg+n3NXpmvgTfMiH7WliFIuohZMrew6Q1Eun1A4Wiuh0ydlyAlNo2K24bjYdQ==
+  dependencies:
+    storybook-i18n "^1.0.3"
+
 stream-browserify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"

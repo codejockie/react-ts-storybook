@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./button.css";
 
 interface ButtonProps {
@@ -34,6 +35,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
+  const [t] = useTranslation("common", { useSuspense: false });
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
@@ -46,7 +48,7 @@ export const Button = ({
       style={{ backgroundColor }}
       {...props}
     >
-      {label}
+      {t(label)}
     </button>
   );
 };
